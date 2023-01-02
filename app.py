@@ -289,7 +289,7 @@ def vid_count(uploaded_video):
         'Bottom-Left': bottom_left_counts,
         'All Counted Cells': total_counts
     })
-    df_counts.to_excel('counts/counts_per_frame.xlsx', index=False)
+#    df_counts.to_excel('counts/counts_per_frame.xlsx', index=False)
 
     cap.release()
     new_video.release()
