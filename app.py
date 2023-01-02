@@ -10,7 +10,7 @@ st.sidebar.title('Cell Counting App')
 
 # Video Uploader
 st.sidebar.subheader('Upload Video')
-uploaded_video = st.sidebar.file_uploader('Choose your video file.', type=['mov', 'mp4', 'avi'])
+uploaded_video = st.sidebar.file_uploader('Choose your video file.', type=['mp4'])
 
 # İmage Uploader
 st.sidebar.subheader('Upload Image')
