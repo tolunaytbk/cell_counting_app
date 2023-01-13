@@ -6,8 +6,6 @@ import pandas as pd
 import moviepy.editor as mv
 import pandas as pd
 from io import BytesIO
-import plost
-from os import path
 from .modules import vid_count, to_excel_c, vid_quality
 
 def app():
