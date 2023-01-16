@@ -14,7 +14,7 @@ def app():
     st.sidebar.subheader('Upload Image')
     uploaded_img = st.sidebar.file_uploader(
         'Choose your image file or files.', 
-        type=['png' , 'jpg', 'jpeg'], 
+        type=['png' , 'jpg', 'jpeg', 'tif'], 
         accept_multiple_files=False)
     
     if uploaded_img is not None:
